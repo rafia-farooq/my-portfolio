@@ -130,6 +130,13 @@ nav ul{
   align-items: stretch;
 }
 
+.projects-category{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 #about .content-wrapper {
   display: flex;
   justify-content: center;
@@ -237,7 +244,13 @@ h4 {
   margin: 10px 0;
 }
 
-button {  
+h5 {
+  font-size: 1.2em;
+  text-decoration: underline;
+  margin: 50px 0;
+}
+
+button {
   border: none;
   padding: 10px 20px;
   color: white;
@@ -326,6 +339,10 @@ i {
   padding-top: 150px;
   margin: 0 0 0 15px;
   width: 90%;  
+}
+
+#projects .content-wrapper {
+  margin-bottom: 40px;
 }
 
 #projects .content-wrapper article {
